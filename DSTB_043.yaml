@@ -1,0 +1,14 @@
+proxies:
+- name: Mauliana_DO_2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 55ef5990-43ae-4c7c-971a-7586c504688b
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
