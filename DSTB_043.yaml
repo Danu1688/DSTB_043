@@ -12,6 +12,19 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
+- name: TrojanWsSvr-Live_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  udp: true
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo3.dstb.cloud
 - name: DanuNusa_LiveNusa_1
   type: trojan
   server: beacon.liveon.id
