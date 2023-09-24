@@ -1,9 +1,9 @@
 proxies:
-- name: DanuNusa_LiveNusa_1
+- name: MaulianaNusa_LiveNusa_1
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 55349efa-6b40-4225-9158-946a3e3e07eb
+  password: c9360d06-f300-433e-8414-c99ecf3994f2
   udp: true
   sni: vpna4mvbhv.scpotato.me
   skip-cert-verify: true
